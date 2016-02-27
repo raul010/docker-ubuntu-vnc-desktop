@@ -1,5 +1,4 @@
 #!/bin/bash
-
 mkdir -p /var/run/sshd
 
 # create an ubuntu user
