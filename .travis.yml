@@ -1,0 +1,10 @@
+language: node_js
+sudo: required
+
+services:
+  - docker
+
+before_install:
+- docker pull raul010/vcn
+- docker run -i -t -p 6080:6080 dorowu/ubuntu-desktop-lxde-vnc
+
